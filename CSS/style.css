@@ -1,0 +1,100 @@
+:root {
+    --head-color: #db35a9;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.heed button {
+    border-color: var(--head-color);
+    color: var(--head-color);
+}
+
+.heed button:hover {
+    background-color: var(--head-color);
+    border: none;
+}
+
+button:focus {
+    display: none;
+
+}
+
+.main-title {
+    background-color: var(--head-color);
+    border: none;
+}
+
+.main-title:hover {
+    background-color: #b61e88;
+}
+
+@media(min-width: 768px) {
+    .img1 {
+        width: 750px;
+    }
+}
+
+@media(min-width: 992px) {
+    .img1 {
+        width: 970;
+    }
+}
+
+@media(min-width: 1200px) {
+    .img1 {
+        width: 1170px;
+    }
+}
+
+.img1 img {
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    .text {
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+.content .ground {
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+}
+.box p{
+    font-weight: 700;
+}
+.content img {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.img2 img {
+    width: 100%;
+}
+
+.footer .foot-content {
+    background-color: hsl(192, 100%, 9%);
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+i {
+    color: white;
+}
+
+.foot-content img {
+    width: 20px;
+    height: 20px;
+}
